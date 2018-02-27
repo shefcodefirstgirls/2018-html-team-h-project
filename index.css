@@ -1,0 +1,28 @@
+body {
+  background-color: #FFF7F8;
+}
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 48px;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  margin: 0px;
+}
+.turqoise {
+  background-color: #119DA4;
+}
+.black {
+  background-color: #0B0014;
+  color: white;
+}
+.beige {
+  background-color: #E3B5A4;
+}
+.white {
+  background-color: #FFF7F8;
+}
+.blue {
+  background-color: #0C7489;
+}
