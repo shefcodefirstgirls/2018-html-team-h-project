@@ -8,9 +8,10 @@
   height: 240px;
   padding: 5px;
 }
-.panel {
+.panelHeader {
   text-align: center;
   background-color: #754996;
+  padding: 10px;
 }
 h1 {
   font-size: 56px;
