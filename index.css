@@ -9,6 +9,10 @@
   padding: 5px;
 }
 .panelHeader {
+  background-color: #F5F3F6;
+  padding: 5px;
+}
+.panel {
   text-align: center;
   background-color: #754996;
   padding: 10px;
