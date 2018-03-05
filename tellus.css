@@ -1,1 +1,10 @@
-
+.panelHeader {
+  background-color: #F5F3F6;
+  padding-top: 50px;
+}
+.panel {
+  text-align: center;
+  background-color: #754996;
+  padding: 20px;
+  color: #F5F3F6;
+}
