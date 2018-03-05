@@ -9,14 +9,14 @@
   padding: 5px;
 }
 .panelHeader {
-  background-color: #F5F3F6;
+  background-color: #F5E5FC;
   padding-top: 50px;
 }
 .panel {
   text-align: center;
   background-color: #947EB0;
   padding: 20px;
-  color: #F5F3F6;
+  color: #F5E5FC;
 }
 h1 {
   font-size: 56px;
@@ -25,5 +25,5 @@ h1 {
   text-align: center;
   background-color: #AAAAAA;
 }
-body {background-color: #F5F3F6;
+body {background-color: #F5E5FC;
 }
