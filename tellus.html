@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div class="panelHeader">
+    <div class="panelHeader">
   <div class="panel" class="row-2">
       <h1>Tell Your Story</h1>
   </div>
@@ -32,25 +32,34 @@
   </div>
 </nav>
    <p> Have something to share? Please submit your day... </p>
-  <form>
+<form class="form-horizontal" action="/action_page.php">
    <div class="row">
-     Name:<br>
-     <input type="text" name="name"<br>
+     <div class="form-group">
+       <label for="text">Name:</label>
+       <input type="text" class="form-control" name="name">
+       <textarea class="form-control" Column="3"></textarea> 
+    </div>
    </div>
    <div class="row">
-     Country:<br>
-     <input type="text" name="country"<br>
+     <div class="form-group">
+       <label for="email">Email address:</label>
+       <input type="email" class="form-control" name="email">
+     </div>
    </div>
    <div class="row">
-     Dream:<br>
-     <input type="text" name="dream"<br>
+     <div class="form-group">
+       <label for="text">Country:</label>
+       <input type="text" class="form-control" name="country">
+     </div>
    </div>
    <div class="row">
-     Tell us your day:<br>
-     <input type="text" name="Tell us your day"<br>
+     <div class="form-group">
+       <label for="text">Tell us your day:</label>
+       <textarea class="form-control" rows="5"></textarea>
+     </div>
    </div>
    <div class="row">
-     <input type="button" onclick="alert('Thank you for telling us your day!')"value=Submit>
+     <button type="button" class="btn btn-submit" onclick="alert('Thank you for telling us your day!')">Submit</button>
    </div>
   </form>
 </body>
