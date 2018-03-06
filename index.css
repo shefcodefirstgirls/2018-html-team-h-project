@@ -1,8 +1,12 @@
+.people {
+  height: 100%;
+}
 .column {
   margin: auto;
 }
-.row {
+people.row {
   margin: auto;
+  height: 32%;
 }
 .profile_photo {
   height: 200px;
@@ -14,7 +18,7 @@
 }
 .panelHeader {
   background-color: #F5F3F6;
-  padding-top: 50px;
+  /*padding-top: 50px;*/
 }
 .panel {
   text-align: center;
@@ -30,5 +34,6 @@ h1 {
   text-align: center;
   background-color: #AAAAAA;
 }
-body {background-color: #F5F3F6;
+body {
+  background-color: #F5F3F6;
 }
