@@ -4,7 +4,7 @@
 .column {
   margin: auto;
 }
-people.row {
+.people_row {
   margin: auto;
   height: 32%;
 }
@@ -36,4 +36,9 @@ h1 {
 }
 body {
   background-color: #F5F3F6;
+}
+@media only screen and (min-width: 768px) {
+  .row {
+    height: 30%;
+  }
 }
