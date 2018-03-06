@@ -1,1 +1,22 @@
+}
+.column {
+  margin: auto;
+}
+.row {
+  margin: auto;
+}
 
+}
+h1{
+  font-size: 56px;
+  background-color: #754996;
+}
+.navbar-nav {
+  text-align:  center;
+  background-color: #AAAAAA;
+
+
+img {
+    border-radius: 50%;
+    padding: 5px;
+}
