@@ -6,17 +6,16 @@
   margin: auto;
 }
 
-
 h2{
   overflow: hidden;
   text-align: center;
-  font-family: DengXian,Cambria,Helvetica,Arial;
-  font-size: 56px;
+  font-family: Calibri Light, Helvetica,Arial;
+  font-size: 40px;
   background-color: #947EB0;
-  padding: 15px;
+  padding: 10px;
 }
 
- .topnav{
+.topnav{
      background-color: #AAAAAA;
       overflow: hidden;
    }
@@ -24,12 +23,20 @@ h2{
        float: left;
        color: #f2f2f2;
        text-align: center;
-       padding: 14px 16px;
        text-decoration: none;
        font-size: 17px;
+
+   }
+   p1{
+     overflow: hidden;
+     text-align: left;
+     font-family: Helvetica,Arial;
+     font-size: 20px;
+     background-color: ;
    }
 
-img {
-    border-radius: 50%;
+}
+img{
+    border-radius:50%;
     padding: 5px;
 }
