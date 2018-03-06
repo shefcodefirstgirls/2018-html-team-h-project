@@ -1,12 +1,12 @@
 .panelHeader {
-  background-color: #F9F0FD;
+  background-color: #F5F3F6;
   padding-top: 50px;
 }
 .panel {
   text-align: center;
   background-color: #947EB0;
   padding: 20px;
-  color: #F9F0FD;
+  color: #F5F3F6;
 }
 form {
   padding: 50px;
