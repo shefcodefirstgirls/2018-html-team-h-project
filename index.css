@@ -5,7 +5,11 @@
   margin: auto;
 }
 .profile_photo {
-  height: 240px;
+  height: 200px;
+  padding: 5px;
+}
+#story001_shaded {
+  height: 200px;
   padding: 5px;
 }
 .panelHeader {

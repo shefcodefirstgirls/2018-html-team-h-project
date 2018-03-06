@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link href='index.css' rel='stylesheet'>
+      <script src="​https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js​"></script> 
       <title>Journal Gals</title>
     </head>
   <link rel="stylesheet" type='text/css' href="index.css">
@@ -35,7 +36,7 @@
     <div class= "people" class="container">
     <div class="row">
       <div class="col-2"></div>
-  <div class="col-2"> <img class="profile_photo" src="defaultpic.jpg"></div>
+  <div class="col-2"> <img class="profile_photo" id="story001" class="story001" src="defaultpic.jpg"><img id="story001_shaded" class="story001_shaded" src="defaultpicshaded.jpg"></div>
   <div class="col-2"> <img class="profile_photo" src="defaultpic.jpg"></div>
   <div class="col-2"> <img class="profile_photo" src="defaultpic.jpg"></div>
   <div class="col-2"> <img class="profile_photo" src="defaultpic.jpg"></div>
@@ -58,8 +59,28 @@
   <div class="col-2"></div>
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$("#story001_shaded").hide();
+//*$(".story001").hover(function(){
+ //*$( ".story001" ).replaceWith( ".story001_shaded" )
+//*});
+$("#story001").mouseenter(function(){
+    $("#story001").hide();
+    $("#story001_shaded").show();
+});
+$("#story001_shaded").mouseleave(function(){
+    $("#story001_shaded").hide();
+    $("#story001").show();
+});
+});
+</script>
+
 </body>
 </html>
