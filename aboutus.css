@@ -6,17 +6,16 @@
   margin: auto;
 }
 
-}
-h1{
-  overflow: hidden;
-  font-size: 56px;
-  background-color: #754996;
-}
-.navbar-nav {
-  text-align:  center;
-  background-color: #AAAAAA;
 
+h2{
+  overflow: hidden;
+  text-align: center;
+  font-family: DengXian,Cambria,Helvetica,Arial;
+  font-size: 56px;
+  background-color: #947EB0;
+  padding: 15px;
 }
+
  .topnav{
      background-color: #AAAAAA;
       overflow: hidden;
