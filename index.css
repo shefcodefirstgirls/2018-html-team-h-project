@@ -30,9 +30,14 @@
 h1 {
   font-size: 56px;
 }
-#navbar-nav {
+.navbar-nav {
   text-align: center;
   background-color: #AAAAAA;
+}
+.navigation {
+  background-color: #AAAAAA;
+}
+
 }
 body {
   background-color: #F5F3F6;

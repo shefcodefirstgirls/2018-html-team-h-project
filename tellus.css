@@ -11,6 +11,9 @@
 form {
   padding: 50px;
 }
+.form-control{
+  width: 700px;
+}
 p1{
   overflow: hidden;
   text-align: center;
