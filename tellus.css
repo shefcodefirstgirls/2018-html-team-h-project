@@ -14,6 +14,9 @@ form {
 .form-control{
   width: 700px;
 }
+.form-horizontal{
+  margin: auto;
+}
 p1{
   overflow: hidden;
   text-align: center;
