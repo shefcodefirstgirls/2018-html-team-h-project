@@ -33,11 +33,13 @@ h1 {
 .navbar-nav {
   text-align: center;
   background-color: #AAAAAA;
+  margin: auto;
 }
-.navigation {
+.navbar-collapse {
   background-color: #AAAAAA;
 }
-
+.navbar-expand-lg {
+  background-color: #AAAAAA;
 }
 body {
   background-color: #F5F3F6;
