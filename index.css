@@ -46,3 +46,8 @@ body {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
+.page-footer {
+  background-color: #947EB0;
+  text-align: center;
+  color: #F5F3F6;
+}
