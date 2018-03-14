@@ -33,6 +33,13 @@ h1 {
 .navbar-nav {
   text-align: center;
   background-color: #AAAAAA;
+  margin: auto;
+}
+.navbar-collapse {
+  background-color: #AAAAAA;
+}
+.navbar-expand-lg {
+  background-color: #AAAAAA;
 }
 body {
   background-color: #F5F3F6;
@@ -45,4 +52,9 @@ body {
 .profile_photo:hover {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+}
+.page-footer {
+  background-color: #947EB0;
+  text-align: center;
+  color: #F5F3F6;
 }
