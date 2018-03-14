@@ -71,6 +71,20 @@ body {
   text-align: center;
   color: #F5F3F6;
 }
-.Navigation {
-  background-color: #F5F3F6;
+.facebook_logo{
+  height: 75px;
+  width:auto;
+  margin:auto;
+}
+.twitter_logo{
+  height: 60px;
+  width: auto;
+}
+.insta_logo{
+  height: 50px;
+  width: auto;
+}
+.col-md-1{
+  margin: auto;
+  text-align: center;
 }
