@@ -30,15 +30,30 @@
 h1 {
   font-size: 56px;
 }
+.navbar-default {
+  border-color: #F3F3F6;
+  border: none !Important;
+}
 .navbar-nav {
   text-align: center;
-  background-color: #AAAAAA;
+  color: #F5F3F6;
+  background-color: #F5F3F6;
   margin: auto;
 }
 .navbar-collapse {
-  background-color: #AAAAAA;
+  background-color: #F5F3F6;
 }
-
+.navbar-expand-lg {
+  background-color: #F5F3F6;
+}
+.navbar-light {
+  background-color: #F5F3F6;
+}
+.navbar {
+  background-color: #F5F3F6;
+  border: 0px;
+  padding: 0px;
+}
 body {
   background-color: #F5F3F6;
 }

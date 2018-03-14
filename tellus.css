@@ -1,12 +1,40 @@
 .panelHeader {
   background-color: #F5F3F6;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .panel {
   text-align: center;
   background-color: #947EB0;
   padding: 20px;
   color: #F5F3F6;
+  font-family: Courier;
+}
+h1 {
+  font-size: 56px;
+}
+.navbar-default {
+  border-color: #F3F3F6;
+  border: none !Important;
+}
+.navbar-nav {
+  text-align: center;
+  color: #F5F3F6;
+  background-color: #F5F3F6;
+  margin: auto;
+}
+.navbar-collapse {
+  background-color: #F5F3F6;
+}
+.navbar-expand-lg {
+  background-color: #F5F3F6;
+}
+.navbar-light {
+  background-color: #F5F3F6;
+}
+.navbar {
+  background-color: #F5F3F6;
+  border: 0px;
+  padding: 0px;
 }
 form {
   padding: 50px;
@@ -23,4 +51,9 @@ p1{
   font-family: Helvetica,Arial;
   font-size: 20px;
   background-color: ;
+}
+.page-footer {
+  background-color: #947EB0;
+  text-align: center;
+  color: #F5F3F6;
 }

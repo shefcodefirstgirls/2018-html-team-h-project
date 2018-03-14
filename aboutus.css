@@ -1,3 +1,17 @@
+.panelHeader {
+  background-color: #F5F3F6;
+  /*padding-top: 50px;*/
+}
+.panel {
+  text-align: center;
+  background-color: #947EB0;
+  padding: 20px;
+  color: #F5F3F6;
+  font-family: Courier;
+}
+h1 {
+  font-size: 56px;
+}
 .column {
   margin: auto;
 }
@@ -16,17 +30,29 @@ h2{
   padding: 10px;
 }
 
-.topnav{
-  background-color: #AAAAAA;
-  overflow: hidden;
+.navbar-default {
+  border-color: #F3F3F6;
+  border: none !Important;
 }
-.topnav a{
-  float: left;
-  color: #f2f2f2;
+.navbar-nav {
   text-align: center;
-  text-decoration: none;
-  font-size: 17px;
-
+  color: #F5F3F6;
+  background-color: #F5F3F6;
+  margin: auto;
+}
+.navbar-collapse {
+  background-color: #F5F3F6;
+}
+.navbar-expand-lg {
+  background-color: #F5F3F6;
+}
+.navbar-light {
+  background-color: #F5F3F6;
+}
+.navbar {
+  background-color: #F5F3F6;
+  border: 0px;
+  padding: 0px;
 }
 p1{
   overflow: hidden;
@@ -42,6 +68,7 @@ p1{
     max-width: 1000px;
     margin: 0 auto;
 }
+
 .container .content {
     position: absolute;
     bottom: 0;
@@ -53,4 +80,9 @@ p1{
 .our_photos:hover {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+}
+.page-footer {
+  background-color: #947EB0;
+  text-align: center;
+  color: #F5F3F6;
 }
