@@ -1,6 +1,6 @@
 .panelHeader {
   background-color: #F5F3F6;
-  /*padding-top: 50px;*/
+  padding-top: 20px;
 }
 .panel {
   text-align: center;
@@ -16,9 +16,9 @@ h1 {
   margin: auto;
 }
 
-.row {
+/*.row {
   margin: auto;
-}
+}*/
 
 h2{
   overflow: hidden;

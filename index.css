@@ -12,13 +12,9 @@
   height: 200px;
   padding: 5px;
 }
-#story001_shaded {
-  height: 200px;
-  padding: 5px;
-}
 .panelHeader {
   background-color: #F5F3F6;
-  /*padding-top: 50px;*/
+  padding-top: 20px;
 }
 .panel {
   text-align: center;
