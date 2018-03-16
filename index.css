@@ -66,21 +66,24 @@ body {
   background-color: #947EB0;
   text-align: center;
   color: #F5F3F6;
+  margin: auto;
 }
 .facebook_logo{
-  height: 75px;
-  width:auto;
+  height: 70px;
   margin:auto;
 }
 .twitter_logo{
   height: 60px;
-  width: auto;
+  margin: auto;
 }
 .insta_logo{
   height: 50px;
-  width: auto;
+  margin: auto;
 }
 .col-md-1{
   margin: auto;
   text-align: center;
+}
+.footer-copyright {
+  height: 90px;
 }
