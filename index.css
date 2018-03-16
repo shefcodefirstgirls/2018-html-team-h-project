@@ -58,10 +58,6 @@ body {
     height: 30%;
   }
 }
-.profile_photo:hover {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
 .page-footer {
   background-color: #947EB0;
   text-align: center;
@@ -86,4 +82,213 @@ body {
 }
 .footer-copyright {
   height: 90px;
+}
+/* OVERLAYING IMAGE QUOTES */
+.profile_photo:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.person-1 {
+    position: relative;
+    text-align: center;
+}
+.quote-1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-1:hover .quote-1 {
+  opacity: 1;
+}
+.person-2 {
+    position: relative;
+    text-align: center;
+}
+.quote-2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-2:hover .quote-2 {
+  opacity: 1;
+}
+.person-3 {
+    position: relative;
+    text-align: center;
+}
+.quote-3 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-3:hover .quote-3 {
+  opacity: 1;
+}
+.person-4 {
+    position: relative;
+    text-align: center;
+}
+.quote-4 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-4:hover .quote-4 {
+  opacity: 1;
+}
+.person-5 {
+    position: relative;
+    text-align: center;
+}
+.quote-5 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-5:hover .quote-5 {
+  opacity: 1;
+}
+.person-6 {
+    position: relative;
+    text-align: center;
+}
+.quote-6 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-6:hover .quote-6 {
+  opacity: 1;
+}
+.person-7 {
+    position: relative;
+    text-align: center;
+}
+.quote-7 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-7:hover .quote-7 {
+  opacity: 1;
+}
+.person-8 {
+    position: relative;
+    text-align: center;
+}
+.quote-8 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-8:hover .quote-8 {
+  opacity: 1;
+}
+.person-9 {
+    position: relative;
+    text-align: center;
+}
+.quote-9 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-9:hover .quote-9 {
+  opacity: 1;
+}
+.person-10 {
+    position: relative;
+    text-align: center;
+}
+.quote-10 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-10:hover .quote-10 {
+  opacity: 1;
+}
+.person-11 {
+    position: relative;
+    text-align: center;
+}
+.quote-11 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-11:hover .quote-11 {
+  opacity: 1;
+}
+.person-12 {
+    position: relative;
+    text-align: center;
+}
+.quote-12 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-12:hover .quote-12 {
+  opacity: 1;
 }
