@@ -8,6 +8,10 @@
   padding: 20px;
   color: #F5F3F6;
   font-family: Courier;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-color: black;
+  border-width: 2px;
 }
 h1 {
   font-size: 56px;
@@ -85,4 +89,8 @@ p1{
   background-color: #947EB0;
   text-align: center;
   color: #F5F3F6;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-color: black;
+  border-width: 2px;
 }

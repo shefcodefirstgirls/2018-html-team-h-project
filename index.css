@@ -22,6 +22,10 @@
   padding: 20px;
   color: #F5F3F6;
   font-family: Courier;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-color: black;
+  border-width: 2px;
 }
 h1 {
   font-size: 56px;
@@ -63,6 +67,10 @@ body {
   text-align: center;
   color: #F5F3F6;
   margin: auto;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-color: black;
+  border-width: 2px;
 }
 .facebook_logo{
   height: 70px;
