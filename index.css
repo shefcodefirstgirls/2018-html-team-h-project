@@ -12,6 +12,11 @@
   height: 200px;
   padding: 5px;
 }
+.quote {
+  color: white;
+  background-color: rgba(148, 126, 176, 0.7);
+  font-family: 'Source Sans', sans-serif;
+}
 .panelHeader {
   background-color: #F5F3F6;
   padding-top: 20px;
@@ -29,6 +34,7 @@
 }
 h1 {
   font-size: 56px;
+  font-family: 'Noto Sans', sans-serif;
 }
 .navbar-default {
   border-color: #F3F3F6;
@@ -97,6 +103,12 @@ body {
 .profile_photo:hover {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+}
+.quote:hover {
+  .profile_photo {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
 }
 .person-1 {
     position: relative;
