@@ -43,3 +43,34 @@ h1 {
 body {
   background-color: #F5F3F6;
 }
+.page-footer {
+  background-color: #947EB0;
+  text-align: center;
+  color: #F5F3F6;
+  margin: auto;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-color: black;
+  border-width: 2px;
+  padding: 0px;
+}
+.facebook_logo{
+  height: 50px;
+  margin:auto;
+}
+.twitter_logo{
+  height: 40px;
+  margin: auto;
+}
+.insta_logo{
+  height: 30px;
+  margin: auto;
+}
+.col-md-1{
+  margin: auto;
+  text-align: center;
+}
+.footer-copyright {
+  height: 50px;
+  padding: 0px;
+}
