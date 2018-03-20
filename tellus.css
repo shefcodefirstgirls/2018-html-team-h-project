@@ -13,8 +13,11 @@
   border-color: black;
   border-width: 2px;
 }
-h1 {
+.h1 {
   font-size: 56px;
+  text-align: center;
+  margin: auto;
+  color: #F5F3F6;
 }
 .navbar-default {
   border-color: #F3F3F6;
