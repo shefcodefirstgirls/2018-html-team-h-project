@@ -68,3 +68,6 @@ p1{
   border-color: black;
   border-width: 2px;
 }
+.form-control {
+  margin: auto;
+}
