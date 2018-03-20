@@ -90,9 +90,12 @@ body {
   border-width: 2px;
   padding: 0px;
 }
+.footer-copyright {
+  height: 90px;
+}
 .facebook_logo{
   height: 50px;
-  margin:auto;
+  margin: auto;
 }
 .twitter_logo{
   height: 40px;
