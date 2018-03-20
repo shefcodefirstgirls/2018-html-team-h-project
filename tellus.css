@@ -63,10 +63,38 @@ form {
   background-color: #947EB0;
   text-align: center;
   color: #F5F3F6;
+  margin: auto;
   border-top-style: dotted;
   border-bottom-style: dotted;
   border-color: black;
   border-width: 2px;
+  padding: 0px;
+}
+.footer-copyright {
+  height: 90px;
+}
+.facebook_logo{
+  height: 40px;
+  margin: auto;
+  text-align: left;
+}
+.twitter_logo{
+  height: 40px;
+  margin: auto;
+  text-align: center;
+}
+.insta_logo{
+  height: 40px;
+  margin: auto;
+  text-align: right;
+}
+.col-md-1{
+  margin: auto;
+  text-align: center;
+}
+.footer-copyright {
+  height: 50px;
+  padding: 0px;
 }
 .form-group {
   text-align: center;
@@ -78,5 +106,5 @@ form {
 }
 .btn {
   text-align: center;
-  margin: auto; 
+  margin: auto;
 }

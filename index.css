@@ -130,14 +130,17 @@ body {
 .facebook_logo{
   height: 40px;
   margin: auto;
+  text-align: left;
 }
 .twitter_logo{
   height: 40px;
   margin: auto;
+  text-align: center;
 }
 .insta_logo{
   height: 40px;
   margin: auto;
+  text-align: right;
 }
 .col-md-1{
   margin: auto;
