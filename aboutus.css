@@ -27,7 +27,7 @@ h1 {
 h2{
   overflow: hidden;
   text-align: center;
-  font-family: Calibri Light, Helvetica,Arial;
+  font-family: 'Source Sans', sans-serif;
   color: white;
   font-size: 40px;
   background-color: #947EB0;
@@ -61,7 +61,7 @@ h2{
 p1{
   overflow: hidden;
   text-align: center;
-  font-family: Helvetica,Arial;
+  font-family: 'Source Sans', sans-serif;
   font-size: 20px;
   background-color: ;
 }
