@@ -70,11 +70,12 @@ body {
   }
 }
 .person-1-photo {
-  height: 300px;
+  height: 250px;
   align: left;
 }
 .story {
-  text-align: right;
+
+  align: right;
 }
 .close-button {
   align: right;
