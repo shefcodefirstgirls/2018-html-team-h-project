@@ -68,6 +68,15 @@ form {
   border-color: black;
   border-width: 2px;
 }
-.form-control {
+.form-group {
+  text-align: center;
   margin: auto;
+}
+.checkbox-inline {
+  text-align: center;
+  margin: auto;
+}
+.btn {
+  text-align: center;
+  margin: auto; 
 }
