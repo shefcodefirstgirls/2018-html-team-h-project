@@ -40,7 +40,7 @@
     <div class= "people" class="container">
     <div class="row">
       <div class="col-md-2"></div>
-  <div class="col-md-2"> <img class="profile_photo" src="defaultpic.jpg"></div>
+  <div class="col-md-2"> <div class="col-md-2 people person-1"> <img class="profile_photo" src="https://thumbor.forbes.com/thumbor/144x144/smart/https%3A%2F%2Fblogs-images.forbes.com%2Fterriburns%2Ffiles%2F2016%2F11%2FTerri-Burns_avatar_1480495703-400x400.jpg"><div class="quote quote-1">I had my tunes with me to mark every step of the way</div></div>
   <div class="col-md-2"> <img class="profile_photo" src="defaultpic.jpg"></div>
   <div class="col-md-2"> <img class="profile_photo" src="defaultpic.jpg"></div>
   <div class="col-md-2"> <img class="profile_photo" src="defaultpic.jpg"></div>
@@ -67,6 +67,19 @@
 <div class="container">
   <div class="row">
   </div>
+</div>
+
+<div class="container person-1-story">
+    <div class="row"><div class="col-md-1"></div>
+    <div class="col-md-9">
+      <!-- <div class="col-md-3"> -->
+    <img class="person-1-photo" src="https://thumbor.forbes.com/thumbor/144x144/smart/https%3A%2F%2Fblogs-images.forbes.com%2Fterriburns%2Ffiles%2F2016%2F11%2FTerri-Burns_avatar_1480495703-400x400.jpg"></div>
+    <div class="story">
+      <p class="story">Terri Burns ,  WOMEN@FORBES I offer business, leadership and life tips using data visualizations. I take my earphones with me everywhere: to work, to the gym, to grab carton of milk around the corner, sometimes even to bed.  I recently moved from New York City to San Francisco for a job as a product manager at a tech company, earphones and all. Just after settling into the hustle and bustle of Silicon Valley, a work trip popped up that required me to head cross-country, back to my old stomping grounds in NYC. When my Forbes editor asked me to chronicle a day in my life, I knew a day from this work trip would be a good one: between the chaos of traveling, speaking at an event and gearing up for a new project at work, I had my tunes with me to mark every step of the way. </p>
+    </div>
+    <!-- </div> -->
+      <div class="col-md-2"> <button class="close-button">X</button> </div>
+    </div>
 </div>
 
 </body>
@@ -101,6 +114,28 @@ $(".profile_photo").mouseleave(function(){
     $(".quote").hide();
 });
 });*/
+$(document).ready(function(){
+  $(".person-1-story").hide();
+  $(".person-1").click(function(){
+      $(".people").hide();
+      $(".person-1-story").show();
+    });
+  $(".close-button").click(function(){
+      $(".person-1-story").hide();
+      $(".people").show();
+    });
+    // $(".people").click(function(){
+          // $(".this").hide();
+          // $(".person-1-story").show();
+      // });
+    // $(".close-button").click(function(){
+          // $(".person-1-story").hide();
+          // $(".people").show();
+      // });
+    /*$(".person-1").mouseover(function(){
+        $("img:profile_photo").addClass("profile_photo_shaded");
+    });*/
+  });
 </script>
 
 </html>
